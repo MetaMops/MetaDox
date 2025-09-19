@@ -1,0 +1,7 @@
+# Metasploit Manager Requirements
+# This tool uses only Python standard library modules
+# No external dependencies required
+
+# Optional: For enhanced terminal features
+# colorama>=0.4.4  # Cross-platform colored terminal text
+# rich>=13.0.0     # Rich text and beautiful formatting in the terminal

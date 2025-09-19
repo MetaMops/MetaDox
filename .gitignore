@@ -1,0 +1,236 @@
+# Metasploit Manager - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated Files
+payloads/
+payload_configs/
+handlers/
+checkfiles/
+*.exe
+*.dll
+*.apk
+*.jar
+*.elf
+*.macho
+*.bin
+
+# Metasploit
+.msf4/
+metasploit-framework/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup Files
+*.bak
+*.backup
+backup/
+
+# Configuration Files (sensitive)
+config.ini
+settings.ini
+*.conf
+*.config
+
+# Test Files
+test_*
+*_test.py
+tests/
+
+# Documentation Build
+docs/_build/
+docs/build/
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Security
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+.secrets/
+
+# Large Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# System Files
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+*.lnk
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project Specific
+# Generated payloads and configurations
+payloads/
+payload_configs/
+handlers/
+checkfiles/
+
+# Metasploit database
+postgresql/
+msf_database/
+
+# Analysis results
+analysis_results/
+scan_results/
+
+# Temporary analysis files
+temp_analysis/
+analysis_temp/
+
+# User data
+user_data/
+user_configs/
+
+# Session data
+sessions/
+session_data/
+
+# Cache
+cache/
+.cache/
+
+# Local development
+local/
+dev/
+development/
+
+# Production
+production/
+prod/
+
+# Staging
+staging/
+stage/
