@@ -72,7 +72,7 @@
 | **Step** | **Command** | **Description** |
 |:---:|:---:|:---|
 | 1️⃣ | `git clone https://github.com/MetaMops/MetaDox.git` | Clone repository |
-| 2️⃣ | `cd MetaDox` | Navigate to project directory |
+| 2️⃣ | `cd MetaDox-main` | Navigate to project directory |
 | 3️⃣ | `pip install -r requirements.txt` | Install Python dependencies |
 | 4️⃣ | `sudo apt install metasploit-framework file binutils unzip` | Install system tools |
 | 5️⃣ | `sudo python3 main.py` | Run the application |
@@ -84,7 +84,7 @@
 ```bash
 # Clone and setup
 git clone https://github.com/MetaMops/MetaDox.git
-cd MetaDox
+cd MetaDox-main
 pip install -r requirements.txt
 
 # Install system tools (Ubuntu/Debian/Kali)
